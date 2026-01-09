@@ -40,9 +40,14 @@ object Build : BuildType({
 
     steps {
         script {
-            name = "hw"
-            id = "hw"
-            scriptContent = "echo hw"
+            name = "hw1"
+            id = "hw1"
+            scriptContent = "echo hw1"
+        }
+        script {
+            name = "hw2"
+            id = "hw2"
+            scriptContent = "echo hw2"
         }
     }
 
